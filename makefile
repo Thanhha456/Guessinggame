@@ -1,5 +1,6 @@
-touch README.md
-nano README.md
-#Guessinggame
-echo $(date +%r-%d-%m-%Y)
-echo "Number of files: " $(wc -l guessinggame.sh)
+README.md:
+	touch README.md
+	echo "Title: #GUESSINGGAME" >> README.md
+	echo "Current time:" date +%r-%m-%d-%Y >> README.md
+	echo "Number of lines:" $(wc -l guessinggame.sh ) >> README.md
+
