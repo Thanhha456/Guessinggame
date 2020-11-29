@@ -1,7 +1,7 @@
 #!/bin/bash
 function guessinggame {
 
-    num=$(find ~/Guessinggame -type f | wc -l)       
+    num=$(find | wc -l)       
     echo "Welcome to Guessinggame!"
     echo "Please enter how many files there are in the current directory."
     read response

@@ -1,3 +1,3 @@
 # Title: GUESSINGGAME  
-Current time: piątek, listopada 27, 2020.  
-Number of lines in guessinggame.sh is : 30
+Current time: 12:21:25 niedziela, listopada 29, 2020.  
+Number of lines in guessinggame.sh is : 33
